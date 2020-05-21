@@ -3,6 +3,9 @@ package com.app.ticket.booking.model;
 public class TicketDetailsRequest {
 	private String source;
 	private String destination;
+	
+	public TicketDetailsRequest(){
+	}
 
 	public String getSource() {
 		return source;
