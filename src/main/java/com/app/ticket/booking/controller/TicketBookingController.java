@@ -20,6 +20,6 @@ public class TicketBookingController {
 			e.printStackTrace();
 		}
 		return new TicketDetailsResponse.Builder().withSource(source).withDestination(destination).
-				withAvailableCount(1000L).withFlightNumber("F1-ABCD").build();
+				withAvailableCount(1000L).withFlightNumber("F1-ABCD").buid();
 	}
 }
